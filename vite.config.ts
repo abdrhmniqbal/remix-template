@@ -7,5 +7,5 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 installGlobals()
 
 export default defineConfig({
-  plugins: [remixDevTools(), remix(), tsconfigPaths()],
+  plugins: [remixDevTools(), remix({ appDirectory: 'src' }), tsconfigPaths()],
 })

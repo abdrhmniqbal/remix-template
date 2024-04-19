@@ -1,4 +1,4 @@
-import './app.css'
+import '@/resources/styles/app.css'
 import {
   Links,
   Meta,
