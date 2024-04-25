@@ -1,4 +1,5 @@
 import '@/resources/styles/app.css'
+import { ManifestLink } from '@remix-pwa/sw'
 import {
   Links,
   Meta,
@@ -17,6 +18,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           content="width=device-width, initial-scale=1"
         />
         <Meta />
+        <ManifestLink />
         <Links />
       </head>
       <body>
